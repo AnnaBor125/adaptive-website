@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('fonts/CustomFont-Regular.woff2') format('woff2');
+    }
+    body {
+    font-family: 'CustomFont', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    .header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    }
+    .header__nav {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+    .header__link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    }
+    .content {
+    padding: 20px;
+    }
+    .footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    }
+    .image {
+        max-width: 100%;
+        height: auto;
+        }
+    @media (max-width: 1024px) {
+        .header {
+            font-size: 22px;
+            color:#143308;
+            flex-direction: column;
+         }
+        .header__link {
+         margin: 10px 0;
+            }
+         }   
+            .centered-box {
+                width: 300px;
+                height: 300px;
+                background-color: #ccc;
+                margin: 0 auto;
+                overflow: hidden;
+            }
